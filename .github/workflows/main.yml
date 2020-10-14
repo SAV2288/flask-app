@@ -41,7 +41,7 @@ jobs:
           repository: alexey156/flask-api
           tag_with_ref: true
   
-deploy:
+  deploy:
    runs-on: ubuntu-latest
    needs: build_and_push_to_docker_hub
    steps:
