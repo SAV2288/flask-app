@@ -45,7 +45,6 @@ jobs:
         with:
           context: ./
           file: ./Dockerfile
-          push: true
           tags: alexey156/flask-api:latest
 
       - name: Image digest
